@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.1)  5 DEC 2016 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.1)  5 DEC 2016 20:51
 entering extended mode
 **./cheat_sheet.tex
 (cheat_sheet.tex
@@ -1755,24 +1755,24 @@ Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
  (cheat_sheet.aux)
 \openout1 = `cheat_sheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1840,10 +1840,10 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 133.
+ on input line 134.
 
 \AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring ON on input line 133.
+Package hyperref Info: Link coloring ON on input line 134.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1852,64 +1852,90 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
 
 (cheat_sheet.out) (cheat_sheet.out)
 \@outlinefile=\write5
 \openout5 = `cheat_sheet.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>><<t1.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
+LaTeX Font Info:    Try loading font information for U+msa on input line 138.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
+LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 137.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 138.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+Overfull \hbox (0.21777pt too wide) in paragraph at lines 140--141
+[]\T2A/cmr/m/n/12 Пусть есть си-сте-ма ли-ней-ных урав-не-ний, за-пи-сан-ная в 
+рас-ши-рен-ном мат-рич-ном ви-де $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OMS/cmsy/
+m/n/12 j\OML/cmm/m/it/12 B\OT1/cmr/m/n/12 )$\T2A/cmr/m/n/12 .
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 139.
- [1
+(babel)             in language  on input line 191.
+[1
 
 {C:/Users/Nikita/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
- (cheat_sheet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 212.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 212.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 212.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 212.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+
+(cheat_sheet.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `cheat_sheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 49543 strings out of 493334
- 1132897 string characters out of 3139249
- 1273472 words of memory out of 3000000
- 52385 multiletter control sequences out of 15000+200000
- 14221 words of font info for 39 fonts, out of 3000000 for 9000
+ 49612 strings out of 493334
+ 1133738 string characters out of 3139249
+ 1281496 words of memory out of 3000000
+ 52418 multiletter control sequences out of 15000+200000
+ 25512 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,96p,10365b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dp
-i600\larm1200.pk> <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
-lh-t2a\dpi600\larm1440.pk> <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\lh\lh-t2a\dpi600\larm2074.pk>
-Output written on cheat_sheet.pdf (1 page, 27563 bytes).
+ 62i,9n,96p,10365b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
+ati1200.pk> <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a
+\dpi600\labx1200.pk> <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+unknown\unknown\dpi600\larm1200.pk> <C:\Users\Nikita\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\Nikita\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Nikita\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+>
+Output written on cheat_sheet.pdf (2 pages, 123954 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
