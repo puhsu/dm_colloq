@@ -1,0 +1,146 @@
+\documentclass[a4paper,12pt]{article}
+
+%% Начало шапки
+
+%% Настройка поддержки русского языка
+\usepackage{cmap}                   % Поиск по кириллице
+\usepackage{mathtext}               % Кириллица в формулах
+\usepackage[T1,T2A]{fontenc}        % Кодировки шрифтов
+\usepackage[utf8]{inputenc}         % Кодировка текста
+\usepackage[english,russian]{babel} % Подключение поддержки языков
+
+%% Настройка размеров полей
+\usepackage[top=0.7in, bottom=0.75in, left=0.625in, right=0.625in]{geometry}
+
+%% Математические пакеты
+\usepackage{mathtools}              % Тот же amsmath, только с некоторыми поправками
+\usepackage{amssymb}                % Математические символы
+\usepackage{amsthm}                 % Оформление теорем
+\usepackage{amstext}                % Текстовые вставки в формулы
+\usepackage{amsfonts}               % Математические шрифты
+\usepackage{icomma}                 % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+\usepackage{enumitem}               % Для выравнивания itemize (\begin{itemize}[align=left])
+\usepackage{array}                  % Таблицы и матрицы
+\usepackage{multirow}
+
+%% Алгоритмические пакеты и их настройки
+\usepackage{algorithm}              % Шапка алгоритма
+\usepackage{algorithmicx}           % Написание алгоритмов
+\usepackage[noend]{algpseudocode}   % Написание псевдокода; убраны end
+\usepackage{listings}               % Для кода на каком-либо языке программиования
+\renewcommand{\algorithmicrequire}{\textbf{Ввод:}}              % Ввод
+\renewcommand{\algorithmicensure}{\textbf{Вывод:}}              % Вывод
+\floatname{algorithm}{Алгоритм}                                 % Название алгоритма
+\renewcommand{\algorithmiccomment}[1]{\hspace*{\fill}\{// #1\}} % Комментарии
+\newcommand{\algname}[1]{\textsc{#1}}                           % Вызов функции в алгоритме
+
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%% Шрифты
+\usepackage{euscript}               % Шрифт Евклид
+\usepackage{mathrsfs}               % \mathscr{}
+
+%% Графика
+\usepackage[pdftex]{graphicx}       % Вставка картинок
+\graphicspath{{images/}}            % Стандартный путь к картинкам
+\usepackage{tikz}                   % Рисование всего
+\usepackage{pgfplots}               % Графики
+\usetikzlibrary{calc,matrix}
+
+%% Прочие пакеты
+\usepackage{indentfirst}                    % Красная строка в начале текста
+\usepackage{epigraph}                       % Эпиграфы
+\usepackage{fancybox,fancyhdr}              % Колонтитулы
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}   % Ссылки
+\usepackage{titlesec}                       % Изменение формата заголовков
+\usepackage[normalem]{ulem}                 % Для зачёркиваний
+\usepackage[makeroom]{cancel}               % И снова зачёркивание (на этот раз косое)
+
+%% Прочее
+\mathtoolsset{showonlyrefs=true}        % Показывать номера только у тех формул,
+% на которые есть \eqref{} в тексте.
+\renewcommand{\headrulewidth}{1.8pt}    % Изменяем размер верхнего отступа колонтитула
+\renewcommand{\footrulewidth}{0.0pt}    % Изменяем размер нижнего отступа колонтитула
+
+%Прочее
+\usepackage{forest} % Деревья
+
+\renewcommand{\Re}{\mathrm{Re\:}}
+\renewcommand{\Im}{\mathrm{Im\:}}
+\newcommand{\Arg}{\mathrm{Arg\:}}
+\renewcommand{\arg}{\mathrm{arg\:}}
+\newcommand{\Mat}{\mathrm{Mat}}
+\newcommand{\M}{\mathrm{M}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\isom}{\xrightarrow{\sim}} 
+\newcommand{\leftisom}{\xleftarrow{\sim}}
+\newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{\Ker}{\mathrm{Ker}\:}
+\newcommand{\rk}{\mathrm{rk}\:}
+\newcommand{\diag}{\mathrm{diag}}
+\newcommand{\ort}{\mathrm{ort}}
+\newcommand{\pr}{\mathrm{pr}}
+\newcommand{\vol}{\mathrm{vol\:}}
+\newcommand{\Tr}{\mathrm{tr\:}}
+\newcommand{\sgn}{\mathrm{sgn\:}}
+\newcommand{\al}{\alpha}
+
+%% Определения
+\newtheorem{definition}{Определение}
+\newtheorem*{defin}{Определение}
+\newtheorem{Def}{Определение}
+\newtheorem*{Lemma}{Лемма}
+\newtheorem{Suggestion}{Предложение}
+\newtheorem*{Examples}{Пример}
+\newtheorem*{Consequence}{Следствие}
+\newtheorem{Theorem}{Теорема}
+\newtheorem*{ther}{Теорема}
+\newtheorem{Statement}{Утверждение}
+\newtheorem*{Task}{Упражнение}
+\newtheorem*{Designation}{Обозначение}
+\newtheorem*{Generalization}{Обобщение}
+\newtheorem*{Thedream}{Предел мечтаний}
+\newtheorem*{Properties}{Свойства}
+\newtheorem*{Note}{Замечание}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\C}{\mathbb{C}}
+\renewcommand{\L}{\mathscr{L}}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\phi}{\varphi}
+\newcommand{\e}{\mathbb{e}}
+\renewcommand{\l}{\lambda}
+\newcommand{\E}{\mathbb{E}}
+\def\eps{\varepsilon}
+\def\limref#1#2{{#1}\negmedspace\mid_{#2}}
+\newcommand{\vvector}[1]{\begin{pmatrix}{#1}_1 \\\vdots\\{#1}_n\end{pmatrix}}
+\renewcommand{\vector}[1]{({#1}_1, \ldots, {#1}_n)}
+
+\definecolor{Gray}{gray}{0.9}
+\newcolumntype{g}{>{\columncolor{Gray}}c}
+
+\newtheorem*{canonther}{Теорема о приведении матрицы к каноническому виду}
+\newtheorem*{lem}{Лемма}
+\newtheorem*{lem1}{Лемма 1}
+\newtheorem*{lem2}{Лемма 2}
+\newtheorem*{lem3}{Лемма 3}
+
+
+
+\begin{document}
+	\title{Материалы для подготовки к коллоквиуму\\ по дискретной математике \\ Определения}
+	\author{ПМИ 2016 \\ Орлов Никита, Рубачев Иван, Ткачев Андрей, Евсеев Борис}
+	\maketitle
+	
+	\section*{}
+
+	
+	\begin{center}
+		\line(1,0){450}
+	\end{center}
+	
+\end{document}
