@@ -437,4 +437,50 @@
              Свойства транзитивности, рефлексивности и симметричности очевидны ( Например для транзитивности: $a \thicksim b$ и $b \thicksim c$, значит $(a \in M_i \wedge b \in M_i) \wedge (b \in M_i \wedge c \in M_i) \Leftrightarrow (a \in M_i \wedge c \in M_i) \Leftrightarrow a \thicksim c$). Тогда, два элемента принадлежат одному классу тогда и только тогда, когда они лежат в одном подмножестве $M_i$, т.е. классы задаются разбиением.
         \end{proof}
 
+        \section*{29. Критерий существования функции, обратной к данной. Критерий биекции в терминах обратной функции}
+
+        \subparagraph{Критерий существования функции, обратной к данной.}
+        Пусть $f$ - функциональное соответствие $f:X \rightarrow Y$. Тогда обратное соответствие: $f^{-1} = {(y,\ x)|\ (x,\ y) \in f \Leftrightarrow f(x) = y}$.
+
+        \begin{Note} $f^{-1}$ - функционально $\Leftrightarrow$ $f$ - инъетивно.
+        \end{Note}
+
+        \begin{proof}
+
+        Докажем $\rightarrow$. 
+
+        Из того, что $f^{-1}$ - функционально $\Rightarrow \forall\ y \in Y:\ f^{-1}(y) = x$ и $f^{-1}(y) = x\p \Leftrightarrow x = x\p$ $\Rightarrow$ если $f(x) = f(x\p) = y$, то $f^{-1}(y) = x = x\p$, что и означает инъективность $f$. 
+
+        Докажем $\leftarrow$.
+
+        Из инъективности $f$ $\Rightarrow$ $\forall\ y \in Y:$  $f(x) = y$ и $f(x\p) = y \Leftrightarrow x = x\p \Rightarrow$ если $(y,\ x) \in f^{-1}$ и $(y,\ x\p) \in f^{-1}$, то $x = x\p$ $\Rightarrow$ $f^{-1}$ - функционально.
+        \end{proof} 
+
+        \subparagraph{Критерий биекции в терминах обратной функции}
+        \begin{theorem} Критерией биективности:
+            \begin{enumerate}
+                \item Если $f$ - биекция $A \leftrightarrow B$, 
+                то $f \circ f^{-1} = id_B$ и
+                            $f^{-1} \circ f = id_A$.       
+                \item Если $f$ - функция $A \rightarrow B$ и существует $g: B \rightarrow A$, такая что $f \circ g = id_B$ и $g \circ f = id_A$, то $f^{-1} = g$ и $f$ - биекция.    
+            \end{enumerate} 
+        \end{theorem}
+
+        \begin{proof}
+            Утверждение $1$ проверяется непосредственно, по свойствам биекции: $\forall a \in A:\ f^{-1} \circ f(a) = a$ и
+                     $\forall b \in B:\ f \circ f^{-1}(b) = b$.
+
+            Докажем 2, проверив $f$ на свойства биекции.
+
+            \textit{Всюду определенность.}
+            Если $f$ не всюду определена, то  $g \circ f(x) = g(f(x))$ - не всюду определена, а значит не тождествена, что противоречит гипотизе. Значит $f$ - тотальна.
+
+            \textit{Инъективность.} 
+            Пусть $f(x_1) = f(x_2) \Rightarrow g(f(x_1)) = g(f(x_2)) \Rightarrow x_1 = x_2$.
+
+            \textit{Сюръективность.} 
+            Пусть $f$ не принимает значение $b \in B$, тогда $f(g(\ldots))$ не принимает значение $b$, значит $f \circ g$ - не тождественна, что противоречит условию. Тогда $\forall b \in B:\ \exists a \in A:\ f(a) = b$.
+
+            Таким образом $f$ - биекция. Тогда очевидно, что $g = f^{-1}$ (проверяется поэлементно из композиции $g \circ f = id_A$, $f \circ g = id_B$: $(a,\ b) \in f \Rightarrow (b,\ a) \in g$ и аналогично, если $(b,\ a) \in g$, то $(a,\ b) \in f$).
+        \end{proof}
 \end{document}
